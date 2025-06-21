@@ -42,7 +42,7 @@ def add_message(messages: List[Dict[str, str]], role: str, content: str):
 
 def main():
     st.set_page_config(page_title="🍲 SeoulEats: Your AI Food Guide", page_icon="🍲")
-    st.title("🍲 Based on the weather and your cravings, I'll recommend the best Korean food in Seoul!")
+    st.title("🍲 SeoulEats: Your AI Food Guide")
 
     # 세션 상태 초기화
     if "messages" not in st.session_state:
